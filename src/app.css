@@ -1,0 +1,267 @@
+/* 
+* @Author: anchen
+* @Date:   2017-09-15 15:53:44
+ * @Last Modified by: xubo
+ * @Last Modified time: 2020-04-14 11:08:57
+*/
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cell {
+  text-align: center;
+}
+
+th,
+th .cell {
+  color: #fff !important;
+  background: #475669 !important;
+}
+
+div.el-pagination {
+  padding: 2px 10px;
+  text-align: right;
+  border: 1px solid #dfe6ec;
+  border-top: 0px;
+}
+
+.el-pagination .btn-next,
+.el-pagination .btn-prev {
+  color: #2c3e50;
+}
+
+.el-autocomplete-suggestion__wrap,
+.el-pager li,
+.el-pagination .btn-next,
+.el-pagination .btn-prev,
+.el-pager li:last-child {
+  border: 0px;
+}
+
+.el-pager li.active {
+  background: transparent;
+  color: #20a0ff;
+}
+
+label {
+  font-size: 14px;
+  display: inline-block;
+}
+
+label div {
+  width: 160px;
+  display: inline-block;
+}
+
+label div .el-input__inner {
+  height: 26px;
+}
+
+.el-button {
+  line-height: 6px !important;
+}
+
+.form-check {
+  float: right;
+  border: 1px solid #ccc;
+  margin: 0 0 5px;
+  /* max-width: 1025px; */
+}
+
+.form-check label {
+  margin: 5px;
+}
+
+.form-check button {
+  margin: 5px;
+}
+
+.select-table th:nth-child(1),
+.select-table td:nth-child(1) {
+  border-right: 0px !important;
+}
+
+.select-table th:nth-child(1) div.cell,
+.select-table td:nth-child(1) div.cell {
+  padding-right: 0px !important;
+  width: 34px;
+}
+
+.select-table th:nth-child(2) div.cell,
+.select-table td:nth-child(2) div.cell {
+  padding-left: 2px !important;
+  text-align: left !important;
+}
+
+.el-message {
+  top: 58px !important;
+  left: auto !important;
+  right: -110px;
+}
+
+div.cell p {
+  margin: 0px;
+}
+
+.model-heard div.el-dialog__header span.el-dialog__title,
+.model-stream div.el-dialog__header span.el-dialog__title {
+  background: #1f2d3d;
+  color: #fff;
+  display: inline-block;
+  line-height: 40px;
+  padding: 0px 10px;
+  text-align: center;
+  position: relative;
+  left: -20px;
+  min-width: 200px;
+}
+
+.model-heard input {
+  width: 580px;
+}
+
+.model-heard button.el-button {
+  margin: 0px 100px;
+}
+
+.model-heard .el-dialog--small {
+  width: 800px;
+}
+
+.el-dialog {
+  margin-bottom: 40px !important;
+}
+
+.sn_heard {
+  width: 260px;
+  display: inline-block;
+}
+
+.sn_start,
+.sn_end {
+  width: 200px;
+  display: inline-block;
+}
+
+.sn_start input,
+.sn_end input,
+.sn_heard input {
+  width: 100% !important;
+}
+
+.sn_start div.el-form-item__content,
+.sn_end div.el-form-item__content {
+  margin-left: 0px !important;
+}
+
+.el-radio__input.is-checked .el-radio__inner,
+.el-radio__input.is-focus .el-radio__inner {
+  border-color: #1f2d3d;
+  background: #1f2d3d;
+}
+
+.mode-ref .el-dialog--small {
+  width: 1100px;
+}
+
+.mode-ref .el-dialog__header {
+  background-color: #1f2d3d;
+  border-bottom: 1px solid #d1dbe5;
+  height: 40px;
+}
+
+.mode-ref .el-dialog__body {
+  padding: 0px;
+  margin-top: -42px;
+  width: 800px;
+}
+
+.mode-ref .el-tabs__nav {
+  float: right;
+}
+
+.mode-ref .el-tabs--border-card {
+  border: 0px;
+  width: 750px;
+  margin-left: 300px;
+}
+
+.mode-ref .el-popover,
+.mode-ref .el-tabs--border-card {
+  box-shadow: 0px 0px 0px;
+}
+
+.mode-ref .el-tabs__header {
+  background-color: #1f2d3d !important;
+}
+
+.mode-ref .el-dialog__title {
+  color: #f9c855;
+}
+
+.mode-ref .el-tabs__item:hover {
+  color: #f9c855;
+}
+
+.mode-ref .is-active {
+  color: #1f2d3d !important;
+}
+
+.mode-ref .el-tabs__content {
+  width: 1000px;
+  margin-left: -260px;
+}
+
+/*去除固定表头滚动条*/
+.el-table__fixed {
+  overflow: hidden;
+  height: 100% !important;
+}
+
+.index-page .custom-dialog-width {
+  width: 80%;
+}
+
+.product-code div {
+  width: 300px;
+}
+
+.invite-prize-date input {
+  width: 260px !important;
+}
+
+.detail-form input {
+  width: inherit;
+}
+
+.show-detail input {
+  width: inherit;
+}
+
+.show-detail button.el-button {
+  margin: 0;
+  margin-right: 5px;
+}
+
+.show-detail .el-pagination__editor {
+  width: 30px;
+}
+
+.product-select .el-select,
+.product-date .el-input {
+  width: -webkit-fill-available;
+}
+
+.product-manage-dialog .el-form-item__content {
+  margin: 0 !important;
+  text-align: center;
+}
+
+.ql-editor {
+  height: 320px !important;
+}
