@@ -1,7 +1,3 @@
-# shop
-
-> Tiis is a shop project
-
 ## Build Setup
 
 ``` bash
